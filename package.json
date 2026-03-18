@@ -1,0 +1,26 @@
+{
+  "name": "sqlite-explorer-mcp",
+  "version": "2.1.0",
+  "description": "MCP server for browsing and querying SQLite databases from AI agents",
+  "main": "index.js",
+  "bin": {
+    "sqlite-explorer-mcp": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "mcp",
+    "sqlite",
+    "database",
+    "ai",
+    "model-context-protocol",
+    "claude",
+    "cursor"
+  ],
+  "author": "SQLite Tools Contributors",
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^11.7.0"
+  }
+}
