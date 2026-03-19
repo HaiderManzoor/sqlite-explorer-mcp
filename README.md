@@ -46,13 +46,30 @@ Add to your `.mcp.json`:
 
 ### Cursor
 
-Add to your MCP settings:
+Add to `.cursor/mcp.json` in your project root:
 
 ```json
 {
-  "sqlite-explorer": {
-    "command": "node",
-    "args": ["/path/to/sqlite-explorer-mcp/index.js"]
+  "mcpServers": {
+    "sqlite-explorer": {
+      "command": "node",
+      "args": ["/path/to/sqlite-explorer-mcp/index.js"]
+    }
+  }
+}
+```
+
+### Windsurf
+
+Add to `~/.codeium/windsurf/mcp_config.json`:
+
+```json
+{
+  "mcpServers": {
+    "sqlite-explorer": {
+      "command": "node",
+      "args": ["/path/to/sqlite-explorer-mcp/index.js"]
+    }
   }
 }
 ```
